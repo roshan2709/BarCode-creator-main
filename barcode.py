@@ -4,6 +4,6 @@
 import pyqrcode
 import png
 from pyqrcode import QRCode
-vini = "https://www.linkedin.com/in/vibhor-shandilya-032801164/"
-url=pyqrcode.create(vini)
+rittik = "https://www.linkedin.com/in/rittik-roshan-kumar/"
+url=pyqrcode.create(rittik)
 url.png("anyname.png",scale=6)
